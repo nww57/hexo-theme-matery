@@ -144,7 +144,7 @@
     }
 
     .frind-card1 {
-        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+        background-image: linear-gradient(to right, #8d6e63 0%, #5d4037 100%);
     }
 
     .frind-card2 {
@@ -226,34 +226,7 @@
                 </article>
             </div>
         </div>
-        <div class="card">
-            <div class="card-content">
-                <%- page.content %>
-            </div>
-        </div>
-        <div class="card">
 
-            <% if (theme.gitalk && theme.gitalk.enable) { %>
-            <%- partial('_partial/gitalk') %>
-            <% } %>
-
-            <% if (theme.gitment.enable) { %>
-            <%- partial('_partial/gitment') %>
-            <% } %>
-
-            <% if (theme.disqus.enable) { %>
-            <%- partial('_partial/disqus') %>
-            <% } %>
-
-            <% if (theme.livere && theme.livere.enable) { %>
-            <%- partial('_partial/livere') %>
-            <% } %>
-
-            <% if (theme.valine && theme.valine.enable) { %>
-            <%- partial('_partial/valine') %>
-            <% } %>
-
-        </div>
     </div>
 </main>
 
